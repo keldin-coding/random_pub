@@ -1,5 +1,11 @@
 #!/usr/bin/env ruby
 
+# To use me:
+# in iTerm, go to Settings -> Profile -> Colors tab -> Color presets dropdown -> Export...
+# cat <the file you just exported> | ./iterm_to_hex.rb
+#
+# The ghostty config format will be printed on screen to be copy-pasted to your config
+
 require 'bundler/inline'
 
 gemfile do
